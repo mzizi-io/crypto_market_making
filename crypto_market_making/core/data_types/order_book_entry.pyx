@@ -49,5 +49,17 @@ cdef class OrderBookEntry:
 
         return result
 
+    # Compare the prices of order book entries
+    def __eq__(self, OrderBookEntry other):
+        '''
+        Compare the prices of order book entries using their prices.
+        '''
+        cdef bint result
+        result = False
+        if self.price == other.price:
+            result = True
+
+        return result
+
     def __repr__(self):
         return (f"OrderBookEntry(price={self.price}, amount={self.amount}, update_id='{self.update_id}'))")
