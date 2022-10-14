@@ -1,0 +1,3 @@
+class ActionSpace:
+    def __init__(self):
+        ...
