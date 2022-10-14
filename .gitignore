@@ -2,3 +2,6 @@
 venv
 /build
 /.*pyd
+
+# Ignore config files
+crypto_market_making/config
