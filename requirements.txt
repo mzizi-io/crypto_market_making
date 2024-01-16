@@ -19,7 +19,6 @@ gym==0.21.0
 gym-notices==0.0.8
 idna==3.3
 importlib-resources==5.9.0
-joblib==1.1.0
 kiwisolver==1.4.4
 locket==1.0.0
 Markdown==3.4.1
